@@ -1,0 +1,224 @@
+{
+  "formatVersion": 1,
+  "units": {
+    "steelSection": "US customary",
+    "area": "in^2",
+    "depth": "in",
+    "momentOfInertia": "in^4",
+    "sectionModulus": "in^3",
+    "weight": "lb/ft",
+    "allowableBendingStress": "ksi",
+    "modulusOfElasticity": "psi",
+    "lumberBendingStress": "psi"
+  },
+  "sources": {
+    "steel": {
+      "name": "AISC W-shape section properties",
+      "revision": "Edition-specific; verify against current AISC Steel Construction Manual",
+      "allowableBendingStressBasis": "Fy = 36 ksi and approximate ASD allowable bending stress of 24 ksi"
+    },
+    "lumber": {
+      "name": "Reference sawn-lumber values",
+      "revision": "Representative NDS-style values; verify against current grading agency and code tables",
+      "allowableBendingStressBasis": "Published base design values; user shall verify load-duration, wet-service, temperature, size, and volume factors"
+    }
+  },
+  "steel": [
+    {
+      "designation": "W8x10",
+      "area": 2.96,
+      "depth": 7.89,
+      "weight": 10,
+      "Ix": 30.8,
+      "Sx": 7.81,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W10x12",
+      "area": 3.54,
+      "depth": 9.87,
+      "weight": 12,
+      "Ix": 53.8,
+      "Sx": 10.9,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W12x26",
+      "area": 7.65,
+      "depth": 12.22,
+      "weight": 26,
+      "Ix": 204,
+      "Sx": 33.4,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W12x30",
+      "area": 8.79,
+      "depth": 12.34,
+      "weight": 30,
+      "Ix": 238,
+      "Sx": 38.6,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W12x40",
+      "area": 11.7,
+      "depth": 11.94,
+      "weight": 40,
+      "Ix": 310,
+      "Sx": 51.9,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W12x50",
+      "area": 14.7,
+      "depth": 12.19,
+      "weight": 50,
+      "Ix": 391,
+      "Sx": 64.7,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W14x22",
+      "area": 6.49,
+      "depth": 13.74,
+      "weight": 22,
+      "Ix": 199,
+      "Sx": 29,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W16x26",
+      "area": 7.68,
+      "depth": 15.69,
+      "weight": 26,
+      "Ix": 301,
+      "Sx": 38.4,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W18x35",
+      "area": 10.3,
+      "depth": 17.7,
+      "weight": 35,
+      "Ix": 510,
+      "Sx": 57.6,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W21x44",
+      "area": 13,
+      "depth": 20.7,
+      "weight": 44,
+      "Ix": 843,
+      "Sx": 81.6,
+      "E": 29000000,
+      "Fb": 24
+    },
+    {
+      "designation": "W24x55",
+      "area": 16.2,
+      "depth": 23.6,
+      "weight": 55,
+      "Ix": 1350,
+      "Sx": 114,
+      "E": 29000000,
+      "Fb": 24
+    }
+  ],
+  "lumber": [
+    {
+      "designation": "2x4",
+      "species": "Douglas Fir-Larch",
+      "grade": "No. 2",
+      "nominalWidth": 2,
+      "nominalDepth": 4,
+      "actualWidth": 1.5,
+      "actualDepth": 3.5,
+      "orientation": "edgewise",
+      "I": 5.359,
+      "S": 3.063,
+      "E": 1600000,
+      "Fb": 900
+    },
+    {
+      "designation": "2x6",
+      "species": "Douglas Fir-Larch",
+      "grade": "No. 2",
+      "nominalWidth": 2,
+      "nominalDepth": 6,
+      "actualWidth": 1.5,
+      "actualDepth": 5.5,
+      "orientation": "edgewise",
+      "I": 20.797,
+      "S": 7.563,
+      "E": 1600000,
+      "Fb": 900
+    },
+    {
+      "designation": "2x8",
+      "species": "Douglas Fir-Larch",
+      "grade": "No. 2",
+      "nominalWidth": 2,
+      "nominalDepth": 8,
+      "actualWidth": 1.5,
+      "actualDepth": 7.25,
+      "orientation": "edgewise",
+      "I": 47.635,
+      "S": 13.141,
+      "E": 1600000,
+      "Fb": 900
+    },
+    {
+      "designation": "2x10",
+      "species": "Douglas Fir-Larch",
+      "grade": "No. 2",
+      "nominalWidth": 2,
+      "nominalDepth": 10,
+      "actualWidth": 1.5,
+      "actualDepth": 9.25,
+      "orientation": "edgewise",
+      "I": 98.932,
+      "S": 21.391,
+      "E": 1600000,
+      "Fb": 900
+    },
+    {
+      "designation": "2x12",
+      "species": "Douglas Fir-Larch",
+      "grade": "No. 2",
+      "nominalWidth": 2,
+      "nominalDepth": 12,
+      "actualWidth": 1.5,
+      "actualDepth": 11.25,
+      "orientation": "edgewise",
+      "I": 177.979,
+      "S": 31.641,
+      "E": 1600000,
+      "Fb": 900
+    },
+    {
+      "designation": "4x4",
+      "species": "Douglas Fir-Larch",
+      "grade": "No. 2",
+      "nominalWidth": 4,
+      "nominalDepth": 4,
+      "actualWidth": 3.5,
+      "actualDepth": 3.5,
+      "orientation": "edgewise",
+      "I": 12.505,
+      "S": 7.145,
+      "E": 1600000,
+      "Fb": 700
+    }
+  ]
+}
