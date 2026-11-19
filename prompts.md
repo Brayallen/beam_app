@@ -52,7 +52,7 @@
 
 - **Asked:** Add a summary section that saves the last five tests run.
 - **Changed:** Added a recent-tests panel persisted in browser local storage. The Analyze beam button records up to five runs; each entry shows beam section, support, span, outcome, moment, and deflection, with a Load button to restore the saved inputs.
-- **Worked:** Browser testing found and fixed input edits being misrecorded as tests; verifying that only explicit Analyze button runs are saved and that records persist/restore.
+- **Worked:** Browser verification confirmed edits do not create history entries, explicit analyses are saved, only the newest five remain, history survives reload, and Load restores the saved support, material, section, orientation, span, and loads.
 
 - **Asked:** Suggest another feature to add.
 - **Changed:** No app files changed; recommended save/load beam scenarios.
